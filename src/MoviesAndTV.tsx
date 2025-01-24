@@ -11,6 +11,7 @@ const MoviesAndTV = () => {
 
   const openService = (url: string) => {
     // Logic to open the service in an embedded view
+    // This will be implemented to ensure it opens within the Steam app
     window.open(url, "_self"); // Opens in the same window
   };
 
