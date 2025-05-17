@@ -1,11 +1,13 @@
 # Gemstone: access your favourite streaming services and Non-Steam games seamlessly inside the SteamOS menu.
 
-Gemstone is an open-source plugin for SteamOS that seamlessly integrates cloud gaming and movie/TV streaming services into the SteamOS frontend, providing a unified and enhanced user experience. I was going to add support for more game libraries, but after talking to the creator of Junk-Store, I believe I will hold off on that for now, or just give up with that and endorse his project instead at a later date.
+Gemstone is an open-source plugin for SteamOS that seamlessly integrates cloud gaming and movie/TV streaming services into the SteamOS frontend, providing a unified and enhanced user experience. I was going to add support for more game libraries, but after talking to the creator of Junk-Store, this will become a companion plugin that comes with/requires and also modifies the Junk-Store plugin, expanding it for the wider scope of Gemstone in a way that doesnt disregard all the hard work being put into his project.
 
 ## Features
 
 - **Cloud Gaming Integration**: Access popular cloud gaming services directly from the SteamOS interface.
-- **Streaming Services**: Seamlessly navigate and stream content from various movie and TV streaming platforms.
+- **Streaming Services**: Seamlessly navigate and stream content from various movie and TV streaming platforms, including a TV Guide.
+- **More than just Steam**: Enjoy all your Games from other Platforms, with our Junk-Store-like functionality.
+- **Mods Galore**: No workshop for your game? well enjoy having custom-local workshops pulling from Mod platforms such as Curseforge, ModDB and Gamebanana.
 - **Unified Frontend**: Enjoy all your gaming and streaming services in one place without having to switch between different applications.
 - **Easy Installation**: Installable via Decky Loader for a hassle-free setup.
 
