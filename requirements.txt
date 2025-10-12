@@ -1,0 +1,2 @@
+# No additional dependencies required for basic testing
+# pytest and flake8 are installed by the CI workflow
