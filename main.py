@@ -6,6 +6,7 @@ import os
 import decky
 import asyncio
 
+
 class Plugin:
     # A normal method. It can be called from the TypeScript side using @decky/api.
     async def add(self, left: int, right: int) -> int:
@@ -42,7 +43,7 @@ class Plugin:
         # Here's a migration example for logs:
         # - `~/.config/decky-template/template.log` will be migrated to `decky.decky_LOG_DIR/template.log`
         decky.migrate_logs(os.path.join(decky.DECKY_USER_HOME,
-                                               ".config", "decky-template", "template.log"))
+                                        ".config", "decky-template", "template.log"))
         # Here's a migration example for settings:
         # - `~/homebrew/settings/template.json` is migrated to `decky.decky_SETTINGS_DIR/template.json`
         # - `~/.config/decky-template/` all files and directories under this root are migrated to `decky.decky_SETTINGS_DIR/`
@@ -51,7 +52,8 @@ class Plugin:
             os.path.join(decky.DECKY_USER_HOME, ".config", "decky-template"))
         # Here's a migration example for runtime data:
         # - `~/homebrew/template/` all files and directories under this root are migrated to `decky.decky_RUNTIME_DIR/`
-        # - `~/.local/share/decky-template/` all files and directories under this root are migrated to `decky.decky_RUNTIME_DIR/`
+        # - `~/.local/share/decky-template/` all files and directories under this root are migrated to
+        #   `decky.decky_RUNTIME_DIR/`
         decky.migrate_runtime(
             os.path.join(decky.DECKY_HOME, "template"),
             os.path.join(decky.DECKY_USER_HOME, ".local", "share", "decky-template"))
