@@ -4,7 +4,7 @@ Gemstone is an open-source plugin for SteamOS that seamlessly integrates cloud g
 
 ## Features
 
-- **Cloud Gaming Integration**: Access popular cloud gaming services directly from the SteamOS interface.
+- **Cloud Gaming Integration**: Access popular cloud gaming services directly from the SteamOS interface, including Xbox Cloud Gaming, GeForce Now, and PlayStation Plus.
 - **Streaming Services**: Seamlessly navigate and stream content from various movie and TV streaming platforms, including a TV Guide.
 - **More than just Steam**: Enjoy all your Games from other Platforms, with our Junk-Store-like functionality.
 - **Mods Galore**: No workshop for your game? well enjoy having custom-local workshops pulling from Mod platforms such as Curseforge, ModDB and Gamebanana.
@@ -22,6 +22,16 @@ To install the Gemstone plugin, you can use the Decky Loader. Follow these steps
 ## Usage
 
 Once installed, you can access Gemstone features directly from the SteamOS frontend. Simply navigate to the cloud gaming or streaming sections to start using the plugin.
+
+### Cloud Gaming Services
+
+The plugin now includes integrated access to major cloud gaming platforms:
+
+- **Xbox Cloud Gaming** (https://www.xbox.com/play) - Stream Xbox games directly through your browser
+- **GeForce Now** (https://play.geforcenow.com) - Access your PC game library through NVIDIA's cloud service  
+- **PlayStation Plus** (https://www.playstation.com/en-us/ps-plus/) - PlayStation's cloud gaming service
+
+These services are embedded similar to how Steam loads its store and community pages, providing a seamless experience within the SteamOS interface.
 
 ## Contributing
 

@@ -9,10 +9,10 @@ import {
   toaster,
 } from "@decky/api";
 import { FaShip } from "react-icons/fa";
-import MoviesAndTV from './MoviesAndTV'; // Import the new MoviesAndTV component
+import Services from './Services'; // Import the new Services component
 
 function Content() {
-  return <MoviesAndTV />; // Include the MoviesAndTV component here
+  return <Services />; // Include the Services component here
 };
 
 export default definePlugin(() => {
@@ -27,8 +27,8 @@ export default definePlugin(() => {
   });
 
   return {
-    name: "Test Plugin",
-    titleView: <div className={staticClasses.Title}>Decky Example Plugin</div>,
+    name: "Gemstone",
+    titleView: <div className={staticClasses.Title}>Gemstone - Gaming & Streaming</div>,
     content: <Content />,
     icon: <FaShip />,
     onDismount() {
