@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#FF6B6B" rx="20"/>
+  
+  <!-- BBC Text -->
+  <text x="100" y="80" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="36" font-weight="bold">BBC</text>
+  
+  <!-- iPlayer Text -->
+  <text x="100" y="120" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="normal">iPlayer</text>
+  
+  <!-- Play button icon -->
+  <polygon points="80,140 80,170 110,155" fill="white"/>
+</svg>

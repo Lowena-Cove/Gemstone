@@ -8,7 +8,7 @@ import {
   removeEventListener,
   toaster,
 } from "@decky/api";
-import { FaShip } from "react-icons/fa";
+import { FaTv } from "react-icons/fa";
 import MoviesAndTV from './MoviesAndTV'; // Import the new MoviesAndTV component
 
 function Content() {
@@ -27,10 +27,10 @@ export default definePlugin(() => {
   });
 
   return {
-    name: "Test Plugin",
-    titleView: <div className={staticClasses.Title}>Decky Example Plugin</div>,
+    name: "Gemstone",
+    titleView: <div className={staticClasses.Title}>Gemstone - Entertainment Hub</div>,
     content: <Content />,
-    icon: <FaShip />,
+    icon: <FaTv />,
     onDismount() {
       console.log("Unloading");
       removeEventListener("timer_event", listener);
